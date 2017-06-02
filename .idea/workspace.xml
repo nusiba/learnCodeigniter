@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15dbb181-fcae-4a7d-9d74-85875ed99b0b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/BloodType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/BloodType_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/BloodType/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/BloodType/confirm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/BloodType/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/BloodType/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forRead.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/views/news/index.php" afterPath="$PROJECT_DIR$/application/views/index/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/application/views/news/news.php" afterPath="$PROJECT_DIR$/application/views/news/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/News_model.php" afterPath="$PROJECT_DIR$/application/models/News_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/index.php" afterPath="$PROJECT_DIR$/application/views/index/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +14,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BloodType.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BloodType.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/BloodType.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="715">
@@ -36,6 +24,40 @@
                 <marker date="1496446714597" expanded="true" signature="554:567" ph="..." />
                 <marker date="1496446714597" expanded="true" signature="719:729" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="News.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/News.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <marker date="1496443461677" expanded="true" signature="354:366" ph="..." />
+                <marker date="1496443461677" expanded="true" signature="527:540" ph="..." />
+                <marker date="1496443461677" expanded="true" signature="683:693" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/index/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,9 +126,9 @@
         <option value="$PROJECT_DIR$/application/views/BloodTypes/add.php" />
         <option value="$PROJECT_DIR$/application/views/BloodTypes/confirm.php" />
         <option value="$PROJECT_DIR$/application/views/BloodTypes/edit.php" />
-        <option value="$PROJECT_DIR$/application/views/index/index.php" />
         <option value="$PROJECT_DIR$/application/views/BloodTypes/index.php" />
         <option value="$PROJECT_DIR$/application/controllers/BloodType.php" />
+        <option value="$PROJECT_DIR$/application/views/index/index.php" />
       </list>
     </option>
   </component>
@@ -398,12 +420,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496442050229</updated>
-      <workItem from="1496442053327" duration="4662000" />
+      <workItem from="1496442053327" duration="5272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4662000" />
+    <option name="totallyTimeSpent" value="5272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="-3" width="1643" height="1053" extended-state="6" />
@@ -497,31 +519,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/news/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="98" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="98" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/News.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <marker date="1496443461677" expanded="true" signature="354:366" ph="..." />
-            <marker date="1496443461677" expanded="true" signature="527:540" ph="..." />
-            <marker date="1496443461677" expanded="true" signature="683:693" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -562,18 +564,6 @@
         <state relative-caret-position="288">
           <caret line="16" column="83" lean-forward="false" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="e#95#101#0#HTML" expanded="false" />
-            <element signature="e#101#107#0#HTML" expanded="false" />
-            <element signature="e#107#113#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -618,6 +608,34 @@
             <marker date="1496446714597" expanded="true" signature="554:567" ph="..." />
             <marker date="1496446714597" expanded="true" signature="719:729" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/News.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <marker date="1496443461677" expanded="true" signature="354:366" ph="..." />
+            <marker date="1496443461677" expanded="true" signature="527:540" ph="..." />
+            <marker date="1496443461677" expanded="true" signature="683:693" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
