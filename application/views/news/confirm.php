@@ -7,8 +7,8 @@
     ?>
   </td>
   <td width="20%">
-    <a href="http://localhost/learncodei/index.php/news/index/delete/<?php echo $new['id'];?>">[ Delete ]</a>
-    <a href="http://localhost/learncodei/index.php/news/index">[ Back ]</a>
+    <a href="<?php echo base_url(); ?>index.php/news/index/delete/<?php echo $new['id'];?>">[ Delete ]</a>
+    <a href="<?php echo base_url(); ?>index.php/news/index">[ Back ]</a>
   </td>
 </tr>
 </table>

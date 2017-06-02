@@ -18,7 +18,7 @@ class News_model extends CI_Model {
   }
 
 public function insert_news($post=[])
-{var_dump($post);
+{
   $data = [
     'title'=>$post['title'],
     'text'=>$post['text']

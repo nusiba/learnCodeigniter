@@ -4,7 +4,8 @@ class News extends CI_Controller {
   public function __construct()
   {
     parent::__construct();
-    $this->load->model('news_model');
+        $this->load->model('news_model');
+        $this->load->helper('url');
   }
 
   public function index($action='',$id=0)
@@ -13,19 +14,16 @@ class News extends CI_Controller {
 
       case 'insert':
         $this->news_model->insert_news($_POST);
-          echo $action;
         echo "<span style='color:green;'>Record inserted Successfully</span><br>";
         break;
 
       case 'update':
-        echo $action;
         $this->news_model->update_news($_POST,$id);
 
         echo "<span style='color:orange;'>Record was updated</span><br>";
         break;
 
       case 'delete':
-        echo $action;
         $this->news_model->delete_news($id);
         echo "<span style='color:red;'>Record was deleted</span><br>";
         break;
