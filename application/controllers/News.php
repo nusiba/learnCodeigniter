@@ -30,7 +30,7 @@ class News extends CI_Controller {
 
     }
     $data['news'] = $this->news_model->getNews();
-    $this->load->view('news/news', $data);
+    $this->load->view('news/index', $data);
   }
 
   public function add()

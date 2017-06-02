@@ -604,11 +604,11 @@ the file in it, pass TRUE (boolean) in the second parameter. Example:</p>
 <p>In the above example, photo.jpg will be placed into the <em>path/to/</em> directory.</p>
 <p>You can also specify a new name (path included) for the added file on the fly:</p>
 <div class="highlight-ci"><div class="highlight"><pre><span class="nv">$path</span> <span class="o">=</span> <span class="s1">&#39;/path/to/photo.jpg&#39;</span><span class="p">;</span>
-<span class="nv">$new_path</span> <span class="o">=</span> <span class="s1">&#39;/new/path/some_photo.jpg&#39;</span><span class="p">;</span>
+<span class="nv">$new_path</span> <span class="o">=</span> <span class="s1">&#39;/news/path/some_photo.jpg&#39;</span><span class="p">;</span>
 
 <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">zip</span><span class="o">-&gt;</span><span class="na">read_file</span><span class="p">(</span><span class="nv">$path</span><span class="p">,</span> <span class="nv">$new_path</span><span class="p">);</span>
 
-<span class="c1">// Download ZIP archive containing /new/path/some_photo.jpg</span>
+<span class="c1">// Download ZIP archive containing /news/path/some_photo.jpg</span>
 <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">zip</span><span class="o">-&gt;</span><span class="na">download</span><span class="p">(</span><span class="s1">&#39;my_archive.zip&#39;</span><span class="p">);</span>
 </pre></div>
 </div>
