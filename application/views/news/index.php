@@ -1,12 +1,18 @@
-<h2><?php echo $title; ?></h2>
-
-
-<?php foreach ($news as $news_item): ?>
-
-        <h3><?php echo $news_item['title']; ?></h3>
-        <div class="main">
-                <?php echo $news_item['text']; ?>
-        </div>
-        <p><a href="<?php echo site_url('news/'.$news_item['slug']); ?>">View article</a></p>
-
-<?php endforeach; ?>
+<a href="<?php echo base_url(); ?>index.php/news/add">[ New ]</a>
+<table width="100%" border="1">
+<?php
+foreach($news as $new){
+  ?>
+  <tr>
+  	<td width='5%'><?php echo $new['id']; ?></td>
+    <td width="20%"><?php echo $new['title']; ?></td>
+    <td width="50%"><?php echo $new['text']; ?></td>
+    <td width="25%">
+      <a href="<?php echo base_url(); ?>index.php/news/edit/<?php echo $new['id'];?>">[ Edit ]</a>
+      <a href="<?php echo base_url(); ?>index.php/news/confirm/<?php echo $new['id'];?>">[ Delete ]</a>
+    </td>
+	</tr>
+  <?php
+}
+?>
+</table>
