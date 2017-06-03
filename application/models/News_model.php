@@ -23,6 +23,7 @@ class News_model extends CI_Model {
             'title'=>$post['title'],
             'text'=>$post['text']
         ];
+
         $this->db->insert('news',$data);
     }
     public function update_news($post = [],$id = 0){

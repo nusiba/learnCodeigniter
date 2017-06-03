@@ -10,6 +10,7 @@ class BloodType extends CI_Controller {
 
   public function index($action='',$id=0)
   {
+
     switch ($action) {
 
       case 'insert':
